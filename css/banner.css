@@ -1,0 +1,137 @@
+.aut_cont_banner
+{
+    height: 100vh;
+    width: 1400px;
+    background-attachment: fixed;
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/fondoportafolio1.jpg");
+}
+
+.aut_sobra
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    width: 80%;
+    height: 90vh;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.912);
+    /*background-color: rgba(0, 0, 0, 0.6);*/
+    color: white;
+    margin: auto;
+    margin-top: 6%;
+}
+
+.aut_sobra hr
+{
+    border-top: 1px solid white;
+}
+
+.aut_sobra h1
+{
+    font-size: 8vw;
+    margin-bottom: 10px;
+    opacity: 0;
+    animation: aut_keyframes_aparecer_de_arriba 1s;
+    -webkit-animation: aut_keyframes_aparecer_de_arriba 1s;
+    animation-fill-mode: forwards;
+}
+
+.aut_sobra p
+{
+    font-size: 4vw;
+    margin-bottom: 10px;
+    opacity: 0;
+    animation: aut_keyframes_aparecer_de_arriba 1s;
+    -webkit-animation: aut_keyframes_aparecer_de_arriba 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+}
+
+.aut_cont_banner_link
+{
+    margin: 15px;
+    position: relative;
+}
+
+.aut_cont_banner_link a
+{
+    position: relative;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 1px;
+    margin-bottom: 5px;
+    width: 150px;
+}
+
+.aut_cont_banner_link a:hover
+{
+    background-color: white;
+    color: #111;
+}
+
+.aut_banner_link
+{
+    opacity: 0;
+    animation: aut_keyframes_aparecer_de_arriba 1s;
+    -webkit-animation: aut_keyframes_aparecer_de_arriba 1s;
+    animation-fill-mode: forwards;
+
+}
+
+.aut_banner_link_1
+{
+    opacity: 0;
+    animation: aut_keyframes_aparecer_de_arriba 1s;
+    -webkit-animation: aut_keyframes_aparecer_de_arriba 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+}
+
+.aut_banner_link_2
+{
+    opacity: 0;
+    animation: aut_keyframes_aparecer_de_arriba 1s;
+    -webkit-animation: aut_keyframes_aparecer_de_arriba 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+.aut_cont_banner_sec_3
+{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/fondoportafolio2.jpg");
+    position: relative;
+    padding: 10%;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.aut_cont_banner_sec_3 .row
+{
+    background-color: rgba(1, 1, 1, 0.7);
+    color: white;
+    padding: 2%;
+}
+
+.aut_cont_img
+{
+    padding: 5%;
+}
+
+.aut_form
+{
+    border: 0.5px solid grey;
+}

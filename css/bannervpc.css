@@ -1,0 +1,155 @@
+.vnt_cont_banner
+{
+    height: 120vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/adidas_carrusel.jpg");
+}
+
+.vnt_sobra
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    margin: auto;
+    margin-top: 6%;
+}
+
+.vnt_sobra hr
+{
+    border-top: 1px solid white;
+}
+
+.vnt_sobra h1
+{
+    font-size: 8vw;
+    margin-bottom: 10px;
+    opacity: 0;
+    animation: aut_keyframes_aparecer_de_arriba 1s;
+    -webkit-animation: aut_keyframes_aparecer_de_arriba 1s;
+    animation-fill-mode: forwards;
+}
+
+.vnt_sobra p
+{
+    font-size: 4vw;
+    margin-bottom: 10px;
+    opacity: 0;
+    animation: aut_keyframes_aparecer_de_arriba 1s;
+    -webkit-animation: aut_keyframes_aparecer_de_arriba 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+}
+.vnt_cont_banner_link
+{
+    margin: 15px;
+    position: relative;
+}
+
+.vnt_cont_banner_link a
+{
+    position: relative;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 1px;
+    margin-bottom: 5px;
+    width: 150px;
+}
+
+.vnt_cont_banner_link a:hover
+{
+    background-color: white;
+    color: #111;
+}
+
+.vnt_banner_link
+{
+    opacity: 0;
+    animation: aut_keyframes_aparecer_de_arriba 1s;
+    -webkit-animation: aut_keyframes_aparecer_de_arriba 1s;
+    animation-fill-mode: forwards;
+
+}
+
+.vnt_banner_link_1
+{
+    opacity: 0;
+    animation: aut_keyframes_aparecer_de_arriba 1s;
+    -webkit-animation: aut_keyframes_aparecer_de_arriba 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+}
+
+.vnt_banner_link_2
+{
+    opacity: 0;
+    animation: aut_keyframes_aparecer_de_arriba 1s;
+    -webkit-animation: aut_keyframes_aparecer_de_arriba 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+.vnt_cont_img
+{
+    padding: 5%;
+}
+
+.vnt_cont_banner_sec_3
+{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/fondo2.jpg");
+    position: relative;
+    padding: 10%;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.vnt_cont_banner_sec_3 .row
+{
+    background-color: rgba(1, 1, 1, 0.7);
+    color: white;
+    padding: 2%;
+}
+.vnt_cont_banner_sec_3
+{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/nk1.jpg");
+    position: relative;
+    padding: 10%;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.vnt_cont_banner_sec_3 .row
+{
+    background-color: rgba(1, 1, 1, 0.7);
+    color: white;
+    padding: 2%;
+}
+
+.vnt_form
+{
+    border: rgba(1, 1, 1, 0.7) 1px;
+    padding: 8%;
+    
+}
