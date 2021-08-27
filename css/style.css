@@ -24,7 +24,13 @@ body{
 
 .aut_cont_sec_1
 {
-    padding: 10%;
+    padding: 0%;
+    
+}
+
+.aut_cont_sec_1 p{
+    font-size: 20px;
+    
 }
 
 .aut_cont_sec_1_link
@@ -39,7 +45,7 @@ body{
 
 .aut_cont_sec_1 hr
 {
-    border-top: 1px solid rgba(1, 1, 1, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.433);
 }
 
 .aut_cont_footer

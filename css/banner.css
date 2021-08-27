@@ -10,7 +10,7 @@
 }
 
 .aut_sobra
-{
+{    
     position: absolute;
     left: 50%;
     top: 50%;
@@ -26,6 +26,15 @@
     color: white;
     margin: auto;
     margin-top: 6%;
+}
+.aut_sobra img{
+    width: 425px;
+    height: 425px;
+    opacity: 0;
+    animation: aut_keyframes_aparecer_de_arriba 1s;
+    -webkit-animation: aut_keyframes_aparecer_de_arriba 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
 }
 
 .aut_sobra hr
@@ -51,7 +60,7 @@
     animation: aut_keyframes_aparecer_de_arriba 1s;
     -webkit-animation: aut_keyframes_aparecer_de_arriba 1s;
     animation-fill-mode: forwards;
-    animation-delay: 0.5s;
+    animation-delay: 1s;
 }
 
 .aut_cont_banner_link
@@ -84,6 +93,7 @@
     animation: aut_keyframes_aparecer_de_arriba 1s;
     -webkit-animation: aut_keyframes_aparecer_de_arriba 1s;
     animation-fill-mode: forwards;
+    animation-delay: 1.5s;
 
 }
 
@@ -93,7 +103,7 @@
     animation: aut_keyframes_aparecer_de_arriba 1s;
     -webkit-animation: aut_keyframes_aparecer_de_arriba 1s;
     animation-fill-mode: forwards;
-    animation-delay: 0.5s;
+    animation-delay: 2s;
 }
 
 .aut_banner_link_2
@@ -102,7 +112,7 @@
     animation: aut_keyframes_aparecer_de_arriba 1s;
     -webkit-animation: aut_keyframes_aparecer_de_arriba 1s;
     animation-fill-mode: forwards;
-    animation-delay: 1s;
+    animation-delay: 2.5s;
 }
 
 .aut_cont_banner_sec_3
