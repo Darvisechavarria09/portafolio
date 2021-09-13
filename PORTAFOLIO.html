@@ -15,42 +15,40 @@
     
 </head>
 <body class="">
-    <header>
-        <nav class="aut_navbar  navbar navbar-expand-lg navbar-light bg-light fixed_top">
-            <a class="navbar-brand" href="#">PORTAFOLIO</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Conócenos<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Galeria De Fotos</a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Lujosos</a>
-                    <a class="dropdown-item" href="#">Deportivos</a>
-                    <a class="dropdown-item" href="#">De Carreras</a>
-                    <a class="dropdown-item" href="#">Usados</a>
-                  </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="file:///F:/sitiopruebas/AUTOCAR%20form.html">Contactanos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Hacer Compra</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-    </header>
     <section>
         <div class="aut_cont_banner">
+            <nav class=" aut_navbar  navbar navbar-expand-lg navbar-dark p-md-3">
+                <a class="navbar-brand" href="#">PORTAFOLIO</a>
+                <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon "></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Conócenos<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Galeria De Fotos</a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Lujosos</a>
+                        <a class="dropdown-item" href="#">Deportivos</a>
+                        <a class="dropdown-item" href="#">De Carreras</a>
+                        <a class="dropdown-item" href="#">Usados</a>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="file:///F:/sitiopruebas/AUTOCAR%20form.html">Contactanos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Hacer Compra</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
             <div class="aut_sobra">
-                <img src="images/perfilportafolio.jpg" alt="">
+                
                 <p>Diseños Elegantes y Contemporaneos</p>
                 <hr>
                 <div class="aut_cont_banner_link">
@@ -92,7 +90,8 @@
                         <a href=""><i class="icon-instagram"></i></a>
                 </div>                
                 <div class="aut_cont_sec_1_link col-md-3 text-center">
-                    <button type="button"><a href="#" class="btn btn-secondary"class="btn-lg">Visítanos</a></button>
+                    <img src="images/perfilportafolio.jpg" alt="">
+                    <button type="button"><a href="#" class="btn btn-secondary"class="btn-lg">CONTACTAME</a></button>
                 </div>
             </div>
         </div>
@@ -174,5 +173,16 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="ext/aos.js"></script>
     <scrip src="js/AUTOCAR.js"></script>
+    <script>
+        var nav = document.querySelector('nav');
+
+        window.addEventListener('scroll', function(){
+            if(window.pageYOffset > 100) {
+                nav.classList.add('bg-dark', 'shadow');
+            }else{
+                nav.classList.add('bg-dark', 'shadow');
+            }
+        });
+    </script>
 </body>
 </html>

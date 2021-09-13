@@ -7,14 +7,15 @@
 }
 
 body{
-    font-family: 'Cormorant Garamont', serif;    
-    color:white;
-    background-color:rgb(13, 21, 106);
+    font-family: 'Cormorant Garamont', serif;
+    /*background-color:rgb(13, 21, 106);*/
 }
 
 .aut_navbar
 {
-  background-color:  rgba(8, 61, 131, 0.693) !important;
+  /*background-color:  rgba(8, 61, 131, 0.953) !important;*/
+  background-color: transparent !important;
+  /*background: url(../images/fondoportafolio1.jpg) no-repeat center;*/
 }
 
 .aut_navbar div, .aut_navbar ul 
@@ -25,6 +26,7 @@ body{
 .aut_cont_sec_1
 {
     padding: 0%;
+    height: 50vh;
     
 }
 
@@ -38,9 +40,26 @@ body{
     padding: 5%;
 }
 
+.aut_cont_sec_1_link img{
+    width: 250px;
+    height: 250px;
+    opacity: 0;
+    animation: aut_keyframes_aparecer_de_arriba 1s;
+    -webkit-animation: aut_keyframes_aparecer_de_arriba 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+}
+
 .aut_cont_sec_1_link a
 {
     width: 200px;
+    background-color: rgba(0, 0, 0, 0.789);
+}
+
+.aut_cont_sec_1_link button{
+    margin-top: 60px;
+    margin-left: 20px;
+    
 }
 
 .aut_cont_sec_1 hr
