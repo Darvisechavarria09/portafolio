@@ -14,8 +14,11 @@ body{
 .aut_navbar
 {
   /*background-color:  rgba(8, 61, 131, 0.953) !important;*/
-  background-color: transparent !important;
-  /*background: url(../images/fondoportafolio1.jpg) no-repeat center;*/
+  background-color:  rgba(226, 24, 24, 0.678) !important;
+  /*background-color: transparent !important;
+  background: url(../images/fondoportafolio2.jpg) no-repeat center;
+  background-position:top;
+  background-attachment: fixed;*/
 }
 
 .aut_navbar div, .aut_navbar ul 
@@ -30,8 +33,14 @@ body{
     
 }
 
+.aut_cont_sec_1 h2{
+    color: white;
+    
+}
+
 .aut_cont_sec_1 p{
     font-size: 20px;
+    color: white;
     
 }
 
@@ -53,7 +62,11 @@ body{
 .aut_cont_sec_1_link a
 {
     width: 200px;
-    background-color: rgba(0, 0, 0, 0.789);
+    background-color: rgba(75, 75, 75, 0.789);
+}
+
+.aut_cont_sec_1_link a:hover{
+    background-color:  rgba(226, 24, 24, 0.678) !important;
 }
 
 .aut_cont_sec_1_link button{
@@ -69,8 +82,9 @@ body{
 
 .aut_cont_footer
 {
-    background-color: rgba(1, 1, 1, 0.7);
-    padding: 10%;
+    background-color:  rgba(226, 24, 24, 0.678) !important;
+
+    padding: 10px;
     color: white;
     margin-top: 100px;
 }
@@ -79,8 +93,4 @@ body{
     color: white;
     text-decoration: none;
     display: block;
-}
-.aut_cont_img_footer
-{
-    padding: 5%;
 }
