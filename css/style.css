@@ -8,13 +8,13 @@
 
 body{
     font-family: 'Cormorant Garamont', serif;
-    /*background-color:rgb(13, 21, 106);*/
 }
 
 .aut_navbar
 {
   /*background-color:  rgba(8, 61, 131, 0.953) !important;*/
-  background-color:  rgba(226, 24, 24, 0.678) !important;
+  background-color:  transparent !important;
+  position:absolute;
   /*background-color: transparent !important;
   background: url(../images/fondoportafolio2.jpg) no-repeat center;
   background-position:top;
@@ -24,23 +24,38 @@ body{
 .aut_navbar div, .aut_navbar ul 
 {
     background-color: transparent !important;
+    
 }
+
+.aut_navbar li:hover{
+    background-color: rgba(223, 223, 223, 0.336) !important;
+}
+
+.aut_navbar a{
+    color: black !important;
+    font-size: 20px;
+}
+
+.cont_sec{
+
+    background-color: rgb(228, 205, 190);
+}
+
 
 .aut_cont_sec_1
 {
     padding: 0%;
-    height: 50vh;
-    
+    height: 75vh;
 }
 
 .aut_cont_sec_1 h2{
-    color: white;
+    color: rgb(0, 0, 0);
     
 }
 
 .aut_cont_sec_1 p{
     font-size: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
     
 }
 
@@ -50,8 +65,8 @@ body{
 }
 
 .aut_cont_sec_1_link img{
-    width: 250px;
-    height: 250px;
+    width: 230px;
+    height: 230px;
     opacity: 0;
     animation: aut_keyframes_aparecer_de_arriba 1s;
     -webkit-animation: aut_keyframes_aparecer_de_arriba 1s;
@@ -62,35 +77,24 @@ body{
 .aut_cont_sec_1_link a
 {
     width: 200px;
-    background-color: rgba(75, 75, 75, 0.789);
+    background-color: rgba(0, 0, 0, 0.789);
 }
 
 .aut_cont_sec_1_link a:hover{
-    background-color:  rgba(226, 24, 24, 0.678) !important;
+    background-color:  rgba(0, 0, 0, 0) !important;
+    color: black;
 }
 
 .aut_cont_sec_1_link button{
     margin-top: 60px;
     margin-left: 20px;
     
+    
 }
 
 .aut_cont_sec_1 hr
 {
-    border-top: 1px solid rgba(255, 255, 255, 0.433);
+    border-top:  0.5px solid rgba(0, 0, 0, 0.433);
 }
 
-.aut_cont_footer
-{
-    background-color:  rgba(226, 24, 24, 0.678) !important;
 
-    padding: 10px;
-    color: white;
-    margin-top: 100px;
-}
-.aut_cont_footer
-{
-    color: white;
-    text-decoration: none;
-    display: block;
-}
