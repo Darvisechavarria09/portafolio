@@ -1,4 +1,5 @@
-.aut_cont_banner
+/*INICIO css de banner*/
+.banner
 {
     height: 90vh;
     width: 1350px;
@@ -9,7 +10,64 @@
     background-image: url("../images/fondoportafolio2.jpg");
 }
 
-.aut_sobra
+.banner_link
+{
+    margin: 15px;
+    position: relative;
+}
+
+.banner_link a
+{
+    position: relative;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 1px;
+    margin-bottom: 5px;
+    width: 150px;
+}
+
+.banner_link a:hover
+{
+    background-color: rgba(0, 0, 0, 0.800);
+    color: rgb(255, 255, 255);
+}
+.banner_btn
+{
+    opacity: 0;
+    animation: aut_keyframes_aparecer_de_arriba 1s;
+    -webkit-animation: aut_keyframes_aparecer_de_arriba 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1.5s;
+
+}
+
+.banner_btn_1
+{
+    opacity: 0;
+    animation: aut_keyframes_aparecer_de_arriba 1s;
+    -webkit-animation: aut_keyframes_aparecer_de_arriba 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+}
+
+.banner_btn_2
+{
+    opacity: 0;
+    animation: aut_keyframes_aparecer_de_arriba 1s;
+    -webkit-animation: aut_keyframes_aparecer_de_arriba 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 2.5s;
+}
+/*FIN css de banner*/
+/*
+*
+*
+*
+*/
+/*INICIO css de sombra1*/
+.sombra1
 {    
     position: absolute;
     left: 50%;
@@ -27,7 +85,7 @@
     margin: auto;
 }
 
-.aut_sobra img{
+.sombra1 img{
     width: 425px;
     height: 425px;
     opacity: 0;
@@ -37,12 +95,12 @@
     animation-delay: 0.5s;
 }
 
-.aut_sobra hr
+.sombra1 hr
 {
     border-top: 1px solid rgb(0, 0, 0);
 }
 
-.entrada
+.titulo_sombra1
 {
     font-size: 6vw;
     margin-bottom: 5px;
@@ -52,7 +110,7 @@
     animation-fill-mode: forwards;
 }
 
-.aut_sobra p
+.sombra1 p
 {
     font-size: 3vw;
     margin-bottom: 10px;
@@ -62,62 +120,14 @@
     animation-fill-mode: forwards;
     animation-delay: 1s;
 }
-
-.aut_cont_banner_link
-{
-    margin: 15px;
-    position: relative;
-}
-
-.aut_cont_banner_link a
-{
-    position: relative;
-    display: inline-block;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    border: 1px solid rgb(0, 0, 0);
-    padding: 1px;
-    margin-bottom: 5px;
-    width: 150px;
-}
-
-.aut_cont_banner_link a:hover
-{
-    background-color: rgba(0, 0, 0, 0.800);
-    color: rgb(255, 255, 255);
-}
-
-.aut_banner_link
-{
-    opacity: 0;
-    animation: aut_keyframes_aparecer_de_arriba 1s;
-    -webkit-animation: aut_keyframes_aparecer_de_arriba 1s;
-    animation-fill-mode: forwards;
-    animation-delay: 1.5s;
-
-}
-
-.aut_banner_link_1
-{
-    opacity: 0;
-    animation: aut_keyframes_aparecer_de_arriba 1s;
-    -webkit-animation: aut_keyframes_aparecer_de_arriba 1s;
-    animation-fill-mode: forwards;
-    animation-delay: 2s;
-}
-
-.aut_banner_link_2
-{
-    opacity: 0;
-    animation: aut_keyframes_aparecer_de_arriba 1s;
-    -webkit-animation: aut_keyframes_aparecer_de_arriba 1s;
-    animation-fill-mode: forwards;
-    animation-delay: 2.5s;
-}
-
-
-
-.aut_cont_banner_sec_3
+/*FIN css de sombra1*/
+/*
+*
+*
+*
+*/
+/*INICIO css de sombra2*/
+.banner_two
 {
     height: 70vh;
     width: 1350px;
@@ -128,7 +138,7 @@
     background-image: url("../images/fondoportafolio2.jpg"); 
 }
 
-.aut_sombra
+.sombra2
 {    
     position:relative;
     left: 50%;
@@ -146,7 +156,7 @@
     
 }
 
-.aut_sombra img{
+.sombra2 img{
     width: 425px;
     height: 425px;
     opacity: 0;
@@ -156,7 +166,7 @@
     animation-delay: 0.5s;
 }
 
-.aut_sombra h2
+.sombra2 h2
 {
     font-size: 4vw;
     text-align:center ;
@@ -168,7 +178,7 @@
     animation-delay: 1s;
 }
 
-.content_sombra div{
+.contenido_sombra2 div{
     position: relative;
     display: inline-block;
     color: rgb(0, 0, 0);
@@ -178,18 +188,18 @@
     margin-left: 5px;
 }
 
-.content_sombra .card{
+.contenido_sombra2 .card{
     background-color:  rgb(63, 63, 63) !important;
     
     width: 300px;
 }
 
-.content_sombra .card:hover{
-    background-color:  rgba(255, 255, 255, 0.678) !important;
+.contenido_sombra2 .card:hover{
+    background-color:  rgba(255, 255, 255, 0.815) !important;
     
 }
 
-.card-body h5, p{ 
+.card-body p, h5{ 
     color: white;
 }
 
@@ -201,38 +211,55 @@
     color: black;
 }
 
-.content_sombra .card .card-body{
+.contenido_sombra2 .card .card-body{
     transition: all 0.3s ease;
 }
-.content_sombra .card:hover .card-body{
+.contenido_sombra2 .card:hover .card-body{
     transform: scale(1.05);
 }
-.content_sombra .card i{
+.contenido_sombra2 .card i{
     font-size: 50px;
     color: crimson;
     transition: color 0.3s ease;
 }
-.content_sombra .card:hover i{
+.contenido_sombra2 .card:hover i{
     color: #fff;
 }
-.content_sombra .card .card-title{
+.contenido_sombra2 .card .card-title{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-
-.aut_cont_img
+/*FIN css de banner*/
+/*
+*
+*
+*
+*/
+/*INICIO css de footer*/
+.footer
 {
-    padding: 5%;
+    background-color: rgb(33, 33, 51) !important;
+    padding: 10px;
+    color: white;
+    
 }
 
-.cabeza{
+.footer
+{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.titulo_contacto_footer
+{
     margin-left: 5%;
     font-size: 20px;
     color: black;
 }
 
-.head{
+.title{
     font-size: 20px;
     color: black;
     
@@ -241,17 +268,4 @@
 .sub-title{
     color: rgb(216, 216, 216);
 }
-
-.aut_cont_footer
-{
-    background-color: rgb(33, 33, 51) !important;
-    padding: 10px;
-    color: white;
-    
-}
-.aut_cont_footer
-{
-    color: white;
-    text-decoration: none;
-    display: block;
-}
+/*FIN css de footer*/
