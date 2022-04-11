@@ -147,7 +147,7 @@
     -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
     padding: 20px;
-    width: 80%;
+    width: 40%;
     height: 50vh;
     text-align: center;
     background-color: rgba(223, 223, 223, 0.336);
@@ -157,8 +157,8 @@
 }
 
 .sombra2 img{
-    width: 425px;
-    height: 425px;
+    width: 70px;
+    height: 70px;
     opacity: 0;
     animation: aut_keyframes_aparecer_de_arriba 1s;
     -webkit-animation: aut_keyframes_aparecer_de_arriba 1s;
@@ -184,53 +184,12 @@
     color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 1px;
+    width:auto;
+    height: auto;
     margin-bottom: 5px;
     margin-left: 5px;
 }
-
-.contenido_sombra2 .card{
-    background-color:  rgb(63, 63, 63) !important;
-    
-    width: 300px;
-}
-
-.contenido_sombra2 .card:hover{
-    background-color:  rgba(255, 255, 255, 0.815) !important;
-    
-}
-
-.card-body p, h5{ 
-    color: white;
-}
-
-.card-body:hover h5{ 
-    color: black;
-}
-
-.card-body:hover p{ 
-    color: black;
-}
-
-.contenido_sombra2 .card .card-body{
-    transition: all 0.3s ease;
-}
-.contenido_sombra2 .card:hover .card-body{
-    transform: scale(1.05);
-}
-.contenido_sombra2 .card i{
-    font-size: 50px;
-    color: crimson;
-    transition: color 0.3s ease;
-}
-.contenido_sombra2 .card:hover i{
-    color: #fff;
-}
-.contenido_sombra2 .card .card-title{
-    font-size: 25px;
-    font-weight: 500;
-    margin: 10px 0 7px 0;
-}
-/*FIN css de banner*/
+/*FIN css de banner_two*/
 /*
 *
 *
@@ -242,7 +201,6 @@
     background-color: rgb(33, 33, 51) !important;
     padding: 10px;
     color: white;
-    
 }
 
 .footer
